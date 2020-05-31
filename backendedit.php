@@ -73,7 +73,7 @@ def devprobe(ip, port, community, version, conn):
 					hexlist = valuestostore
 					mac_hex = hexlist[start]
 					scale = 16
-					numbofbits = 16
+					numbofbits = 8
 					orghex = bin(int(mac_hex, scale))[2:].zfill(numofbits)
 					combine = combine + str(orghex)
 					orghex = ''
