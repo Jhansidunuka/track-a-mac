@@ -64,7 +64,7 @@ def devprobe(ip, port, community, version, conn):
 			oid = vlan.oid
 			vlanoids.append(oid)
 			vlan_name = index.value
-			countofvlan = oid.split(':')
+			countofvlan = oid.split('.')
 			numofvlan = str(countofvlanf_vlan[-1])
 			combine = ''
 			if vlan_name != VL :
