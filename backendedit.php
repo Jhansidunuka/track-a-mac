@@ -84,7 +84,7 @@ def devprobe(ip, port, community, version, conn):
 					if listvls[l] == '1':
 						num = l + 1
 						vlanname.append(str(vlan_name) + '(' + num_of_vlan + ')')
-						vlannum(num)
+						vlannum.append(num)
 		resultfinal=0
 		while resultfinal < (len(vlannum)):
 			portlan = '1'
