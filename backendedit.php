@@ -107,7 +107,7 @@ while True:
 		info = conn.execute('Select * from info')
 		for items in info:
 			ip = items[0]; port=int(items[1]); community=items[2]; version=int(items[3])
-			devprobe( port, community,version, conn)
+			devprobe(ip, port, community,version, conn)
 
 		conn.close()
 
