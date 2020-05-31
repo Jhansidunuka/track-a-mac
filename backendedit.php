@@ -78,7 +78,7 @@ def devprobe(ip, port, community, version, conn):
 					combine = combine + str(orghex)
 					orghex = ''
 					listvls = list(combine)
-					start =start
+					start =start+1
 				another=0
 				for l in range(len(listvls)):
 					if listvls[l] == '1':
