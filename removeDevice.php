@@ -7,7 +7,7 @@ $port = $_GET['port'];
 $community = $_GET['community'];
 $version = $_GET['version'];
 
-if(empty($ip) || empty($port)||empty($community) || empty($version)) {
+if(empty($ip) || empty($port)||($community) || empty($version)) {
     echo "Not true";
 }
 
