@@ -13,7 +13,7 @@ if(empty($ip) || empty($port) || empty($community) || empty($version)) {
 
 else {
 
-    $db->exec("INSERT INTO info (ip,port,community,version) VALUES ('$ip','$port','$community','$version')");
+    $db->exec("INSERT INTO information (ip,port,community,version) VALUES ('$ip','$port','$community','$version')");
         echo "\n";
         echo "OKAYY";
 
