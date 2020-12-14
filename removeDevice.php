@@ -12,7 +12,7 @@ if(empty($ip) || empty($port)|| empty($community) || empty($version)) {
 }
 
 else {
-    $removedevice = $db->exec("DELETE FROM info WHERE ip='$ip' AND port='$port'AND community='$community' AND version='$version'");
+    $removedevice = $db->exec("DELETE FROM information WHERE ip='$ip' AND port='$port'AND community='$community' AND version='$version'");
     if(!$removedevice){
         echo "remove failed";
     }
