@@ -1,7 +1,7 @@
 <?php
 include_once('config.php');
 
-$result = $db->query('SELECT * FROM info');
+$result = $db->query('SELECT * FROM information');
 
 
 while ($devinfo = $result->Arrayfetch()) {
