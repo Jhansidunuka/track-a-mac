@@ -1,11 +1,11 @@
 
 <?php
-class mydatabase extends SQLite3 {
+class mydata extends SQLite3 {
       function __construct() {
          $this->open('mydatabase.db');
       }
 }
-$db = new mydatabase();
+$db = new mydata();
 
 
 $result = $db->exec('CREATE TABLE IF NOT EXISTS List(IP varchar not null, VLANs varchar not null, PORT varchar, MACS varchar)');
