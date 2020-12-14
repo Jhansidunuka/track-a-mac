@@ -1,1 +1,59 @@
+commit 030778b153e911df77057ce9de4ed9c745835f38
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 18:08:31 2020 +0200
 
+    updated device information
+
+commit 698e0c3dd6e762b8d4cc25efe87d0d05a9fcabc0
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 18:07:30 2020 +0200
+
+    listDevs.php
+
+commit b06d157dcfea61c4696b22a6e1ed9eb282c3c898
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 18:04:01 2020 +0200
+
+    updated file
+
+commit f6b98038d6233af6c2337bab3bebc34e88e3e1b4
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 18:02:18 2020 +0200
+
+    if loop issue in removedevices.php file
+
+commit a36bf658221ba44cb0065d10efeecb00124bcfda
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:53:20 2020 +0200
+
+    given ip to device probe
+
+commit 225970f47f88fde0030fff09110030f8c47f748e
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:51:40 2020 +0200
+
+    had to append the vlan numbers
+
+commit 4171c5af1bea9866a02c2096d8053e0c8ae8f0ab
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:49:50 2020 +0200
+
+    Solved an issue with the function
+
+commit 9874a9d78ab8c74e088a5b89224ad84e08bf5648
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:47:13 2020 +0200
+
+    Error with the number of bits in a loop
+
+commit 44c6fd5120602e947291d0b4e92b6a9aac297f79
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:45:23 2020 +0200
+
+    solved an error related to the oid
+
+commit 1b14493804d834a6f9cba61e2b86fe4f86a4b9de
+Author: jhansidunuka <dunukajhansi02@gmail.com>
+Date:   Sun May 31 17:40:26 2020 +0200
+
+    corrected the while loop
